@@ -1,0 +1,1 @@
+from CRUD.mocktail import mock

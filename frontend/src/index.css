@@ -1,0 +1,115 @@
+body {
+  margin: 0;
+  
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #FFEAC9;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#container{
+  position:absolute;
+  min-height: 100%;
+  width: 100%;
+}
+
+#root{
+  height: 100%;
+  width: 100%;
+}
+#link{
+  text-decoration: none;
+}
+
+.bar_header {
+  position: relative;
+  height: 67px;
+  background-image: none;
+  background-color: #D83A56;
+  width: 100%;
+}
+.area_header {
+  display: flex;
+  flex-direction: row;
+  margin: auto auto auto auto;
+  width: 100%;
+  z-index: 1;
+}
+.sub-header{
+  display: block;
+  width: 100%;
+  height: 5px;
+  background-color: #FF616D;
+  box-shadow: #ff562231 0px 4px 8px 0px,
+  #ff562236 0px 6px 20px 0px;
+}
+.text_header{
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  user-select: none;
+  font-weight: bold;
+  margin: auto 1rem auto 1rem; 
+  font-family: "Karma", sans-serif;
+  width: auto;
+  font-size: 2rem;
+  text-align: left;
+  margin-left: 1rem;
+  margin-top: 2vh;
+  background: #FFf;
+  text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.466);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.Footer_area {
+  position: absolute;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  height: 44px;
+  width: 100%;
+  bottom: 0rem !important;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 8px 0px,
+    rgba(0, 0, 0, 0.19) 0px 6px 20px 0px;
+  background-color: #66DE93;
+}
+
+.text_footer {
+  position: absolute;
+  width: 100%;
+  user-select: none;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-family: Mali;
+  transform-origin: 50% 50% 0px;
+  font-size: 20px;
+  height: 0.8rem;
+  bottom: 0;
+  font-family: "Karma", sans-serif;
+}
+#img{
+  width: auto;
+  max-height: 50vh;
+}
+#preview-img-box{
+  display: none;
+}
+#imglist{
+  height: 30vh;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 8px 0px,
+  rgba(0, 0, 0, 0.19) 0px 6px 20px 0px;
+}
+#addicon {
+  position: absolute;
+  right: 1rem;
+  font-size: 4vh;
+}
